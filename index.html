@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convite de Aniversário</title>
+  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="particles">
+    <div class="particle" style="left:10%; animation-duration:13s;"></div>
+    <div class="particle" style="left:40%; animation-duration:10s;"></div>
+    <div class="particle" style="left:70%; animation-duration:15s;"></div>
+    <div class="particle" style="left:85%; animation-duration:12s;"></div>
+  </div>
+
+  <section class="hero">
+    <div class="top-balloons"></div>
+    <h1>Aniversário Da Carola</h1>
+    <p>Uma celebração especial repleta de alegria, carinho e momentos inesquecíveis.</p>
+
+    <div class="event-info glass">
+      <span>📅 09 de Maio de 2026</span>
+      <span>⏰ 19:00 Horas</span>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">...</h2>
+    <div class="message-box glass">
+      Será uma enorme alegria celebrar este momento tão especial ao seu lado. O evento foi preparado com muito carinho, incluindo corte de bolo, bebidas e outros momentos pensados para criar uma experiência memorável para todos os convidados.</br>
+        </br>
+    Para garantir a organização e a preparação adequada de tudo o que será servido, cada convidado deverá contribuir com 200MT, valor destinado ao consumo individual durante o evento, assegurando que todos possam desfrutar plenamente da comida e das bebidas disponíveis no local.</br>
+        </br>
+    Este contributo deverá ser entregue até o dia 06/05/2026, para permitir a devida preparação e logística do evento. Agradece-se a compreensão e colaboração de todos para que a celebração decorra da melhor forma possível.
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contagem Regressiva</h2>
+    <div class="countdown">
+      <div class="time-card glass"><h2 id="days">00</h2><p>Dias</p></div>
+      <div class="time-card glass"><h2 id="hours">00</h2><p>Horas</p></div>
+      <div class="time-card glass"><h2 id="minutes">00</h2><p>Min</p></div>
+      <div class="time-card glass"><h2 id="seconds">00</h2><p>Seg</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Local</h2>
+    <div class="location-card glass">
+      📍 O Quintal, Bairro Mahotas, Maputo, Moçambique
+    </div>
+  </section>
+
+  <section>
+
+    <div class="glass" style="padding:10px;">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.2854475669697!2d32.6295201!3d-25.860080999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee6971f539f0d3b%3A0x4d187682b5c0e828!2sO%20Quintal!5e0!3m2!1spt-PT!2smz!4v1777572434558!5m2!1spt-PT!2smz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Confirmação de Presença</h2>
+    <form id="rsvpForm">
+      <input type="text" id="name" placeholder="Nome completo" required>
+      <input type="number" id="guests" placeholder="Número de acompanhantes" required>
+      <textarea id="message" rows="4" placeholder="Mensagem opcional"></textarea>
+      <button type="submit">Confirmar no WhatsApp</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>
+        <p>Made by: Dave Nanza</p>
+    </div>
+  </footer>
+</div>
+
+<a class="floating-btn" href="#top">↑</a>
+
+<script src="script.js" defer> </script>
+
+</body>
+</html>
