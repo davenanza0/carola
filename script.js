@@ -32,7 +32,7 @@ Nome: ${name}
 Acompanhantes: ${guests}
 Mensagem: ${msg || "Sem mensagem"}`;
 
-  const phone = "258833269298";
+  const phone = "258871021696";
 
   const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
 
